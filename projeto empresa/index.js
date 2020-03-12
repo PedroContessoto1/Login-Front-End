@@ -1,7 +1,7 @@
 $(function() {
     $("#button_register").click(function() {
         if ($("#input_password").val() != "" && $("#input_r_password").val() != "" && $("#input_email").val() != "" && $("input_first_name").val() != "" && $("input_phone").val() != "") {
-            if ($("input_password").val() == $("input_r_password").val()){
+            if ($("#input_password").val() == $("#input_r_password").val())
                 alert(
                     "name = " + $("#input_first_name").val() + "\n" +
                     "email = " + $("#input_email").val() + "\n" +
@@ -9,7 +9,6 @@ $(function() {
                     "repeat password = " + $("#input_r_password").val() + "\n" +
                     "phone = " + $("#input_phone").val() + "\n"
                 )
-            }
             else {
                 alert("As senhas não são compativeis")
             }
