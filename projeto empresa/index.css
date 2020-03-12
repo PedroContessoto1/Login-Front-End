@@ -1,0 +1,197 @@
+body {
+  position: absolute;
+  background-color: #4468ca;
+}
+
+.fundo {
+  background-color: white;
+  margin-left: 96px;
+  margin-right: 700px;
+  margin-top: 2px;
+  width: 100%;
+  height: 700px;
+  border-radius: 8px;
+}
+
+.text_create {
+  position: absolute;
+  top: 55px;
+  left: 920px;
+  font-size: 28px;
+  font-style: normal;
+  font-family: Arial
+}
+
+.input_first_name input[type="text"] {
+  position: absolute;
+  width: 320px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #83838f;
+  margin-left: 620px;
+  margin-top: 115px;
+  text-indent: 18px;
+  font-weight: bold;
+  outline: 0;
+}
+
+.input_phone input[type="text"] {
+  position: absolute;
+  width: 320px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #83838f;
+  margin-left: 970px;
+  margin-top: 115px;
+  text-indent: 18px;
+  font-weight: bold;
+  outline: 0;
+}
+
+.input_email input[type="text"] {
+  position: absolute;
+  width: 675px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #83838f;
+  margin-left: 620px;
+  margin-top: 195px;
+  text-indent: 18px;
+  font-weight: bold;
+  outline: 0;
+}
+
+.input_password input[type=password] {
+  position: absolute;
+  width: 320px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #83838f;
+  margin-left: 620px;
+  margin-top: 275px;
+  text-indent: 18px;
+  font-weight: bold;
+  outline: 0;
+
+}
+
+.input_r_password input[type="password"] {
+  position: absolute;
+  width: 320px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  border-color: #83838f;
+  margin-left: 970px;
+  margin-top: 275px;
+  text-indent: 18px;
+  font-weight: bold;
+  outline: 0;
+}
+
+.button_register input[type="button"] {
+  position: absolute;
+  width: 675px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  margin-left: 620px;
+  margin-top: 355px;
+  background-color: #4e73de;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  outline: 0;
+}
+
+.button_register_google input[type="button"] {
+  position: absolute;
+  width: 675px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  margin-left: 620px;
+  margin-top: 440px;
+  background-color: #ea4236;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  outline: 0;
+}
+
+.button_register_facebook input[type="button"] {
+  position: absolute;
+  width: 675px;
+  height: 55px;
+  border-radius: 45px;
+  border-width: 1px;
+  margin-left: 620px;
+  margin-top: 510px;
+  background-color: #3a5898;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  outline: 0;
+}
+
+.linha1 {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 425px;
+  width: 675px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.linha2 {
+  position: absolute;
+  margin-left: 620px;
+  margin-top: 585px;
+  width: 675px;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+
+.text_button_forgot_password {
+  position: absolute;
+  top: 610px;
+  left: 1000px;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial;
+  color: #3a5898;
+}
+
+.text_button_already {
+  position: absolute;
+  top: 635px;
+  left: 960px;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial;
+  color: #3a5898;
+}
+
+.img_google {
+  position: absolute;
+  top: 456px;
+  left: 948px;
+}
+
+.img_facebook {
+  position: absolute;
+  top: 525px;
+  left: 947px;
+}
+
+
+img {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  
+}
